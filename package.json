@@ -4,8 +4,8 @@
   "description": "Easily view the details of a Block",
   "main": "dist/index.js",
   "scripts": {
-    "babel": "babel --presets=env,stage-3 lib -d dist",
-    "watch": "babel --presets=env,stage-3 lib -d dist --watch",
+    "babel": "babel --presets=env,stage-3 lib -d dist --copy-files",
+    "watch": "babel --presets=env,stage-3 lib -d dist --watch --copy-files",
     "clean": "rm -f ./dist/*.js",
     "lint": "eslint lib/ test/ || exit 0",
     "prepublish": "make babel",
@@ -22,6 +22,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "moment": "^2.24.0",
     "react-hex-editor": "^0.2.0",
     "styled-components": "^5.0.0"
   },
@@ -37,6 +38,11 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
-    "react": "^16.2.0"
+    "react": "^16.2.0",
+    "standard": "^14.3.1"
+  },
+  "peerDependencies": {
+    "@bpanel/bpanel-ui": "^0.0.7",
+    "@bpanel/bpanel-utils": "^0.1.7"
   }
 }
