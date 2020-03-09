@@ -1,12 +1,40 @@
 .hover-white:hover {
     background-color: rgba(255,255,255, 0.05);
 }
+.transaction-summary {
+    border-radius: 4px;
+    margin-bottom: 27px;
+    padding: 0;
+    background: #222B35;
+}
+.transaction-header {
+    border-bottom: 1px solid white;
+    padding: 7px 14px;
+    font-size: 14px;
+}
 .transaction-block-container {
     max-height: 1500px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .word-break-all{
     word-break: break-all;
+}
+.io-container {
+    padding: 10px 0 10px 30px;
+}
+.flo-data-container {
+    overflow: hidden;
+}
+.flo-data-title {
+    margin-left: 14px;
+}
+.flo-data {
+    white-space: nowrap;
+    overflow-x: auto;
+    background: #11181E;
+    padding: 7px 14px;
+    font-size: 14px;
 }
 .flo-data-badge {
     padding: 9px 10px;
@@ -14,4 +42,24 @@
     border: 1px solid white;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.15);
+}
+.scroll-x-auto {
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #fff;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+.address-value {
+    /*background: white;*/
+    /*color: black;*/
+    /*padding: 7px 10px;*/
+    /*border-radius: 5px;*/
+    /*font-size: 14px;*/
 }
