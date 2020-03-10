@@ -1,6 +1,21 @@
 .hover-white:hover {
     background-color: rgba(255,255,255, 0.05);
 }
+.font-size-primary {
+    font-size: 12px;
+}
+.font-size-secondary {
+    font-size: 14px;
+}
+.code-block {
+    background-color: #222B35;
+    color: white;
+    max-height: 120px;
+    overflow: auto;
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
 .transaction-summary {
     border-radius: 4px;
     margin-bottom: 27px;
@@ -45,6 +60,11 @@
     padding: 7px 14px;
     font-size: 12px;
 }
+.cursor-copy:hover {
+    cursor: copy;
+    opacity: 0.7;
+}
+
 .flo-badge-container {
     display: inherit;
 }
@@ -71,8 +91,8 @@
 .address-value {
     background: white;
     color: black;
-    padding: 7px 10px;
-    border-radius: 28px;
+    padding: 3px 10px;
+    border-radius: 3px;
     font-size: 12px;
     word-break: initial;
     width: 98%;
@@ -85,4 +105,16 @@
 }
 .input-amount {
     white-space: nowrap;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+/*color-dark-secondary */
+.cds {
+    color: #11181E;
+}
+/*color-dark-primary */
+.cdp {
+    color: #222B35;
 }
