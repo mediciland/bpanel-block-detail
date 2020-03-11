@@ -118,3 +118,30 @@
 .cdp {
     color: #222B35;
 }
+.pagination-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group-fn-button {
+
+}
+.fn-button {
+    color: white;
+    margin: 0 7px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+.pagination-box-item {
+    margin: 0 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.active-page-box {
+    background-color: white;
+    color: black;
+}
