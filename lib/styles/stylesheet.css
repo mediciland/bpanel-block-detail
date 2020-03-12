@@ -119,6 +119,7 @@
     border: none;
     padding: 5px 11px;
     cursor: pointer;
+    outline: none;
 }
 .pagination-box-item {
     margin: 0 4px;
