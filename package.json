@@ -1,5 +1,5 @@
 {
-  "name": "bpanel-block-detail",
+  "name": "@mediciland/bpanel-block-detail",
   "version": "1.0.0",
   "description": "Easily view the details of a Block",
   "main": "dist/index.js",
